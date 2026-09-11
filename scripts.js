@@ -15,4 +15,9 @@
   const datetime = `<p>Tanaan on ${date}</p><p>Kello on ${time}</p>`;
 
   document.getElementById("datetime").innerHTML = datetime;
+
+  
 }
+
+    setTime();
+    setInterval(setTime, 1000);
